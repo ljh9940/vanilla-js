@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS vaniila</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1 id="clocks">00:00</h1>
+    <form class="hidden" id="login-form">
+      <input
+        type="text"
+        placeholder="What is your name?"
+        required
+        maxlength="15"
+      />
+      <input type="submit" value="Log-in" />
+    </form>
+    <h2 class="hidden" id="greeting" style="color: blue"></h2>
+    <h3>😀Random Number Game</h3>
+    <div>
+      <h4 class="js-title">
+        Generate a number between 0 and
+        <input id="maxNumber" type="number" min="0" />
+      </h4>
+    </div>
+    <form id="js-guess">
+      <label>Guess the number:</label>
+      <input type="number" min="0" />
+      <button>Play!</button>
+    </form>
+    <div id="js-result">
+      <span></span>
+    </div>
+    <h3>😘Time Until Chrismas Eve</h3>
+    <h4 id="clock">00:00:00</h4>
+    <h3>🤪ToDo List</h3>
+
+    <form id="todo-form">
+      <input type="text" placeholder="Write and Press" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quotes">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="js/js-casino.js"></script>
+    <script src="js/dday.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+  </body>
+</html>
